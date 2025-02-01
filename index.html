@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">Mental Health Tracker</h1>
+
+        <label for="emotion" class="fade-in">How are you feeling today?</label>
+        <select id="emotion" name="emotion" class="fade-in">
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="angry">Angry</option>
+            <option value="calm">Calm</option>
+            <option value="stressed">Stressed</option>
+        </select>
+
+        <button onclick="logEmotion()" class="fade-in">Log Emotion</button>
+
+        <label for="textInput" class="fade-in">Tell us more about your feelings:</label>
+        <textarea id="textInput" placeholder="Type your thoughts here..." class="fade-in"></textarea>
+
+        <button onclick="analyzeSentiment()" class="fade-in">Analyze Sentiment</button>
+       
+
+        <div id="emotionAnalysis" class="fade-in"></div>
+        <div id="videoLink" class="fade-in"></div>
+        <div id="stressTips" class="fade-in"></div>
+        <div id="aiChatbot" class="fade-in"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

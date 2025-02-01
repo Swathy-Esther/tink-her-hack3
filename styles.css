@@ -1,0 +1,110 @@
+/* Apply a background gradient for a more attractive look */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+}
+
+/* Center the container and give it a modern card look */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+}
+
+/* Style for heading */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideIn 1s ease-out;
+}
+
+/* Style for labels */
+label {
+    font-size: 1.2em;
+    margin-top: 15px;
+    display: block;
+    text-align: left;
+}
+
+/* Style for select dropdown and textarea */
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Add subtle animation for focus effects */
+select:focus, textarea:focus {
+    outline: none;
+    border-color: #ff7e5f;
+}
+
+/* Style for buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Fade-in animation for the entire page */
+.fade-in {
+    animation: fadeIn 2s ease-out;
+}
+
+/* Animation for elements */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Slide-in animation for the heading */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Add padding and margin for better spacing */
+textarea {
+    height: 100px;
+}
+
+/* Add margin to bottom elements */
+#emotionAnalysis, #stressTips, #aiChatbot {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+}

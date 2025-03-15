@@ -3,8 +3,8 @@ Mental Health Tracker
 Basic Details
 Team Name: Debug Divas
 Team Members
-Team Lead: Swathy Esther - Muthoot Institute Of Technology and Science
-Member 2: Riya Raji - Muthoot Institute Of Technology and Science
+Swathy Esther - Muthoot Institute Of Technology and Science
+Riya Raji - Muthoot Institute Of Technology and Science
 
 Project Description
 The Mental Health Tracker helps users log their emotions, analyze sentiment from user input, provide stress reduction tips .
